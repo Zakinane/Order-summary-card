@@ -1,0 +1,123 @@
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  font-family: "Red hat display";
+  width: 100%;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  margin-top: 6%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  padding: 0px;
+  border-radius: 15px;
+  height: 650px;
+  -webkit-box-shadow: -2px 21px 49px -20px rgba(178, 173, 222, 1);
+  -moz-box-shadow: -2px 21px 49px -20px rgba(178, 173, 222, 1);
+  box-shadow: -2px 21px 49px -20px rgba(178, 173, 222, 1);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: 200px 170px 80px 80px 90px;
+  gap: 10px;
+}
+h2 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+p {
+  font-weight: 800;
+  width: 275px;
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.plan{
+    display: grid;
+    grid-template-columns: 70px 200px 70px;
+    align-items: center;
+    justify-items: end;
+    background-color: hsl(225, 100%, 98%);
+    width: auto;
+    border-radius: 15px;
+    height: 80px;
+
+}
+#Annual{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 0px;
+}
+#price{
+    color: hsl(224, 23%, 55%);
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#pay {
+    align-content: center;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 0px 10px 0px;
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: -2px 21px 49px -20px rgb(47, 25, 244);
+}
+#pay:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+#change{
+    justify-self: baseline;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: small;
+}
+#change:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+#cancel{
+    color: hsl(224, 23%, 55%);
+    font-size: medium;
+    font-weight: bold;
+    align-self: normal;
+}
+#cancel:hover{
+    color: black;
+}
+
+.attribution {
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+a:link {
+  font-size: large;
+  text-decoration: none;
+}
+a:visited {
+  font-size: large;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+a:active {
+  font-size: large;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
